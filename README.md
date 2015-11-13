@@ -3,5 +3,4 @@
 2. Write a function that tells you which of 2 inputs is smaller
 3. Write a function that concatenates n number of strings together
 
-
 https://thawing-plateau-2867.herokuapp.com/
