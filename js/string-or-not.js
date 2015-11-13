@@ -1,16 +1,19 @@
-var var1 = 1;
-var var2 = "Mark";
-var var3;
+var var1 = document.getElementById("variable1");
+var var2;
 
 function stringTest ( variable ) {
     if ( typeof variable === "string" ) {
       console.log("This variable is a string")
-      return true;
+      var2 = "This is a string";
+      //return true;
     } else {
       console.log( "This variable is not a string")
-      return false;
+      var2 = "This is not a string";
+      //return false;
     };
+
+
+document.getElementById("output1")= var2;
+
 };
 
-
-stringTest (var1);
